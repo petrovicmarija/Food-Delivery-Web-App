@@ -1,0 +1,322 @@
+[ {
+  "username" : "zoran",
+  "password" : "zoran",
+  "name" : "Zoran",
+  "surname" : "Zoric",
+  "gender" : "male",
+  "dateOfBirth" : 1625004000000,
+  "role" : "customer",
+  "isBlocked" : false,
+  "deleted" : false,
+  "orders" : [ ],
+  "shoppingCart" : {
+    "items" : [ ],
+    "customer" : null,
+    "price" : 0.0
+  },
+  "points" : -1256.85,
+  "customerType" : {
+    "typeName" : "steel",
+    "discount" : 0.0,
+    "requiredPoints" : 2756.85
+  },
+  "startCheck" : 1626785372701,
+  "endCheck" : 1629463772701,
+  "actions" : 1
+}, {
+  "username" : "sima",
+  "password" : "sima",
+  "name" : "Sima",
+  "surname" : "Simic",
+  "gender" : "male",
+  "dateOfBirth" : 1625090400000,
+  "role" : "customer",
+  "isBlocked" : false,
+  "deleted" : false,
+  "orders" : [ ],
+  "shoppingCart" : {
+    "items" : [ ],
+    "customer" : null,
+    "price" : 0.0
+  },
+  "points" : 0.0,
+  "customerType" : {
+    "typeName" : "steel",
+    "discount" : 0.0,
+    "requiredPoints" : 0.0
+  },
+  "startCheck" : 1626796088985,
+  "endCheck" : 1629474488985,
+  "actions" : 0
+}, {
+  "username" : "milka",
+  "password" : "milka",
+  "name" : "Milka",
+  "surname" : "Milkic",
+  "gender" : "female",
+  "dateOfBirth" : 1559772000000,
+  "role" : "customer",
+  "isBlocked" : false,
+  "deleted" : false,
+  "orders" : [ ],
+  "shoppingCart" : {
+    "items" : [ ],
+    "customer" : null,
+    "price" : 0.0
+  },
+  "points" : 0.0,
+  "customerType" : {
+    "typeName" : "steel",
+    "discount" : 0.0,
+    "requiredPoints" : 0.0
+  },
+  "startCheck" : 1626796128099,
+  "endCheck" : 1629474528099,
+  "actions" : 0
+}, {
+  "username" : "goran",
+  "password" : "goran",
+  "name" : "Goran",
+  "surname" : "Goranovic",
+  "gender" : "male",
+  "dateOfBirth" : 1625263200000,
+  "role" : "customer",
+  "isBlocked" : false,
+  "deleted" : false,
+  "orders" : [ ],
+  "shoppingCart" : {
+    "items" : [ ],
+    "customer" : null,
+    "price" : 0.0
+  },
+  "points" : 0.0,
+  "customerType" : {
+    "typeName" : "steel",
+    "discount" : 0.0,
+    "requiredPoints" : 0.0
+  },
+  "startCheck" : 1626796156727,
+  "endCheck" : 1629474556727,
+  "actions" : 0
+}, {
+  "username" : "vanja",
+  "password" : "vanja",
+  "name" : "Vanja",
+  "surname" : "Veljic",
+  "gender" : "female",
+  "dateOfBirth" : 1625781600000,
+  "role" : "customer",
+  "isBlocked" : false,
+  "deleted" : false,
+  "orders" : [ {
+    "id" : "8hZHb9vKcw",
+    "orderedItems" : [ {
+      "name" : "Pizza",
+      "price" : 450.0,
+      "type" : "food",
+      "restaurant" : {
+        "name" : "Petrus",
+        "type" : "italian",
+        "items" : null,
+        "status" : "open",
+        "location" : {
+          "latitude" : 45.2544,
+          "longitude" : 19.8471,
+          "address" : {
+            "address" : "Modene",
+            "number" : 0,
+            "city" : {
+              "city" : "Novi Sad",
+              "state" : {
+                "state" : "Serbia",
+                "id" : 0
+              },
+              "id" : 0,
+              "zipCode" : 21000.0
+            }
+          }
+        },
+        "imgPath" : "./images/petrus.png",
+        "averageGrade" : 0.0
+      },
+      "amount" : 6.0,
+      "description" : "Sastojci: keÄ�ap, Å¡unka, sir, Å¡ampinjoni",
+      "imagePath" : "./images/items/pizza.jpg"
+    } ],
+    "restaurant" : "Petrus",
+    "restLogo" : "./images/petrus.png",
+    "dateAndTime" : 1626813142000,
+    "price" : 2700.0,
+    "customer" : "vanja",
+    "status" : "delivered"
+  }, {
+    "id" : "CdjMh3YAC0",
+    "orderedItems" : [ {
+      "name" : "Pizza",
+      "price" : 450.0,
+      "type" : "food",
+      "restaurant" : {
+        "name" : "Petrus",
+        "type" : "italian",
+        "items" : null,
+        "status" : "open",
+        "location" : {
+          "latitude" : 45.2544,
+          "longitude" : 19.8471,
+          "address" : {
+            "address" : "Modene",
+            "number" : 0,
+            "city" : {
+              "city" : "Novi Sad",
+              "state" : {
+                "state" : "Serbia",
+                "id" : 0
+              },
+              "id" : 0,
+              "zipCode" : 21000.0
+            }
+          }
+        },
+        "imgPath" : "./images/petrus.png",
+        "averageGrade" : 0.0
+      },
+      "amount" : 7.0,
+      "description" : "Sastojci: keÄ�ap, Å¡unka, sir, Å¡ampinjoni",
+      "imagePath" : "./images/items/pizza.jpg"
+    }, {
+      "name" : "Ham sandwich",
+      "price" : 300.0,
+      "type" : "food",
+      "restaurant" : {
+        "name" : "Petrus",
+        "type" : "italian",
+        "items" : null,
+        "status" : "open",
+        "location" : {
+          "latitude" : 45.2544,
+          "longitude" : 19.8471,
+          "address" : {
+            "address" : "Modene",
+            "number" : 0,
+            "city" : {
+              "city" : "Novi Sad",
+              "state" : {
+                "state" : "Serbia",
+                "id" : 0
+              },
+              "id" : 0,
+              "zipCode" : 21000.0
+            }
+          }
+        },
+        "imgPath" : "./images/petrus.png",
+        "averageGrade" : 0.0
+      },
+      "amount" : 5.0,
+      "description" : "Sastojci: hleb, premaz, Å¡unka, sir, zelena salata",
+      "imagePath" : "./images/items/sandwich.jpg"
+    } ],
+    "restaurant" : "Petrus",
+    "restLogo" : "./images/petrus.png",
+    "dateAndTime" : 1626813200000,
+    "price" : 4650.0,
+    "customer" : "vanja",
+    "status" : "delivered"
+  }, {
+    "id" : "3t8fIORdMM",
+    "orderedItems" : [ {
+      "name" : "Pizza",
+      "price" : 450.0,
+      "type" : "food",
+      "restaurant" : {
+        "name" : "Petrus",
+        "type" : "italian",
+        "items" : null,
+        "status" : "open",
+        "location" : {
+          "latitude" : 45.2544,
+          "longitude" : 19.8471,
+          "address" : {
+            "address" : "Modene",
+            "number" : 0,
+            "city" : {
+              "city" : "Novi Sad",
+              "state" : {
+                "state" : "Serbia",
+                "id" : 0
+              },
+              "id" : 0,
+              "zipCode" : 21000.0
+            }
+          }
+        },
+        "imgPath" : "./images/petrus.png",
+        "averageGrade" : 0.0
+      },
+      "amount" : 1.0,
+      "description" : "Sastojci: keÄ�ap, Å¡unka, sir, Å¡ampinjoni",
+      "imagePath" : "./images/items/pizza.jpg"
+    } ],
+    "restaurant" : "Petrus",
+    "restLogo" : "./images/petrus.png",
+    "dateAndTime" : 1626871253000,
+    "price" : 450.0,
+    "customer" : "vanja",
+    "status" : "delivered"
+  }, {
+    "id" : "WlgUYYiirl",
+    "orderedItems" : [ {
+      "name" : "Pizza",
+      "price" : 450.0,
+      "type" : "food",
+      "restaurant" : {
+        "name" : "Petrus",
+        "type" : "italian",
+        "items" : null,
+        "status" : "open",
+        "location" : {
+          "latitude" : 45.2544,
+          "longitude" : 19.8471,
+          "address" : {
+            "address" : "Modene",
+            "number" : 0,
+            "city" : {
+              "city" : "Novi Sad",
+              "state" : {
+                "state" : "Serbia",
+                "id" : 0
+              },
+              "id" : 0,
+              "zipCode" : 21000.0
+            }
+          }
+        },
+        "imgPath" : "./images/petrus.png",
+        "averageGrade" : 0.0
+      },
+      "amount" : 2.0,
+      "description" : "Sastojci: keÄ�ap, Å¡unka, sir, Å¡ampinjoni",
+      "imagePath" : "./images/items/pizza.jpg"
+    } ],
+    "restaurant" : "Petrus",
+    "restLogo" : "./images/petrus.png",
+    "dateAndTime" : 1626874936081,
+    "price" : 900.0,
+    "customer" : "vanja",
+    "status" : "processing"
+  } ],
+  "shoppingCart" : {
+    "items" : [ ],
+    "customer" : null,
+    "price" : 0.0
+  },
+  "points" : 977.5500000000001,
+  "customerType" : {
+    "typeName" : "steel",
+    "discount" : 0.0,
+    "requiredPoints" : 522.4499999999999
+  },
+  "startCheck" : 1626796060225,
+  "endCheck" : 1629474460225,
+  "actions" : 0
+} ]

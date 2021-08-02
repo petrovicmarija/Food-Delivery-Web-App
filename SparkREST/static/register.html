@@ -1,0 +1,38 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Log In</title>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/toast.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+<img alt="" src="logo1.png">
+<h1 style="color: #99CCFF; text-align: center; font-size: 50"></h1>
+	<form @submit='register' action="http://localhost:8080/restaurants.html">
+		<label>Ime:</label>
+		<input type="text" name="name" v-model="newUser.name"/>
+		<label>Prezime:</label>
+		<input type="text" name="surname" v-model="newUser.surname"/>
+		<label>Pol:</label>
+		<select v-model="newUser.gender">
+			<option value="male">Muško</option>
+			<option value="female">Žensko</option>
+		</select>
+		<label>Datum rođenja:</label>
+		<input type="date" name="dateOfBirth" v-model="newUser.dateOfBirth"/>
+		<label>Korisničko ime:</label>
+		<input type="text" name="username" required v-model="newUser.username"/>
+		<label>Lozinka:</label>
+		<input type="password" name="password" required v-model="newUser.password"/>
+		<input type="submit" value="Register"/>
+	</form>
+</div>
+	<script src="js/vue.js"></script>
+	<script src="js/axios.js"></script>
+	<script src="js/moment.min.js"></script>
+	<script src="js/app2.js"></script>
+	
+</body>
+</html>

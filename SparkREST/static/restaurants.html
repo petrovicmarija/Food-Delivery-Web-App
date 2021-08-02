@@ -1,0 +1,68 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+	<title>Dostavi.com</title>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/toast.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link href="toast.css" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/css/ol.css" type="text/css" />
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/build/ol.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ol-mapbox-style@6.1.4/dist/olms.js"></script>
+ 		<script src="https://unpkg.com/@esri/arcgis-rest-request@3.0.0/dist/umd/request.umd.js"></script>
+    <script src="https://unpkg.com/@esri/arcgis-rest-geocoding@3.0.0/dist/umd/geocoding.umd.js"></script>
+    <script src="https://unpkg.com/@esri/arcgis-rest-auth@3.0.0/dist/umd/auth.umd.js"></script>
+    <script src="https://unpkg.com/ol-popup@4.0.0"></script>
+    <link rel="stylesheet" href="https://unpkg.com/ol-popup@4.0.0/src/ol-popup.css" />
+</head>
+<body>
+<div class="bg-image">
+	</div>
+<div id="restaurants">
+		<router-view :key="$route.fullPath"></router-view>
+</div>
+
+	<script src="js/vue.js"></script>
+	<script src="js/vue-router.js"></script>
+	<script src="js/axios.js"></script>
+	<script src="components/restaurants.js"></script>
+	<script src="components/registration.js"></script>
+	<script src="components/login.js"></script>
+	<script src="components/addEmployee.js"></script>
+	<script src="components/profile.js"></script>
+	<script src="js/app.js"></script>
+	<script src="components/addRestaurant.js"> </script>
+	<script src="components/restaurantInfo.js"> </script>
+	<script src="components/customerList.js"> </script>
+	<script src="components/managerList.js"> </script>
+	<script src="components/delivererList.js"> </script>
+	<script src="components/addItem.js"> </script>
+	<script src="components/addManager.js"> </script>
+	<script src="components/searchRestaurants.js"> </script>
+	<script src="components/shoppingCart.js"> </script>
+	<script src="components/customerOrders.js"> </script>
+	<script src="components/undelivered_orders_customer.js"> </script>
+	<script src="components/manager_order_list.js"> </script>
+	<script src="components/waiting_orders.js"> </script>
+	<script src="components/requests.js"> </script>
+	<script src="components/delivererOrders.js"> </script>
+	<script src="components/delivererNotifications.js"> </script>
+	<script src="components/suspiciousCustomers.js"> </script>
+	<script src="components/undeliveredOrdersDeliverer.js"> </script>
+	<script src="components/customersForManager.js"> </script>
+	<script src="js/toast.js"> </script>
+	<script src="js/map.js"> </script>
+	<script src="components/addComment.js"> </script>
+	<script src="components/allComments.js"> </script>
+
+	<script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearchLite.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/places.js@1.16.3/dist/cdn/placesAutocompleteDataset.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/places.js@1.19.0"></script>
+	<script src="https://unpkg.com/vue-multiselect@2.1.0"></script>
+
+</body>
+</html>

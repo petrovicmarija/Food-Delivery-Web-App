@@ -1,0 +1,97 @@
+[ {
+  "name" : "Kalem",
+  "type" : "chinese",
+  "items" : null,
+  "status" : "open",
+  "location" : {
+    "latitude" : 45.2539,
+    "longitude" : 19.8489,
+    "address" : {
+      "address" : "Bulevar Mihajla Pupina",
+      "number" : 0,
+      "city" : {
+        "city" : "Novi Sad",
+        "state" : {
+          "state" : "Serbia",
+          "id" : 0
+        },
+        "id" : 0,
+        "zipCode" : 21000.0
+      }
+    }
+  },
+  "imgPath" : "./images/kalem.png",
+  "averageGrade" : 0.0
+}, {
+  "name" : "Petrus",
+  "type" : "italian",
+  "items" : null,
+  "status" : "open",
+  "location" : {
+    "latitude" : 45.2544,
+    "longitude" : 19.8471,
+    "address" : {
+      "address" : "Modene",
+      "number" : 0,
+      "city" : {
+        "city" : "Novi Sad",
+        "state" : {
+          "state" : "Serbia",
+          "id" : 0
+        },
+        "id" : 0,
+        "zipCode" : 21000.0
+      }
+    }
+  },
+  "imgPath" : "./images/petrus.png",
+  "averageGrade" : 0.0
+}, {
+  "name" : "Masa",
+  "type" : "italian",
+  "items" : null,
+  "status" : "closed",
+  "location" : {
+    "latitude" : 45.2406,
+    "longitude" : 19.624,
+    "address" : {
+      "address" : "Zmaj Jovina 4",
+      "number" : 0,
+      "city" : {
+        "city" : "Novi Sad",
+        "state" : {
+          "state" : "Serbia",
+          "id" : 0
+        },
+        "id" : 0,
+        "zipCode" : 21000.0
+      }
+    }
+  },
+  "imgPath" : "./images/masa.png",
+  "averageGrade" : 0.0
+}, {
+  "name" : "Piatto",
+  "type" : "italian",
+  "items" : null,
+  "status" : "open",
+  "location" : {
+    "latitude" : 45.2495,
+    "longitude" : 20.0191,
+    "address" : {
+      "address" : "Branka Bajica 9",
+      "number" : 0,
+      "city" : {
+        "city" : "Novi Sad",
+        "state" : {
+          "state" : "Serbia",
+          "id" : 0
+        },
+        "id" : 0,
+        "zipCode" : 21000.0
+      }
+    }
+  },
+  "imgPath" : "./images/piatto.png",
+  "averageGrade" : 0.0
+} ]

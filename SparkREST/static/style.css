@@ -1,0 +1,703 @@
+.styled-table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+
+}
+
+.styled-table thead tr {
+    background-color: #99CCFF;
+    color: #ffffff;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    height: 70px;
+    width: 275px;
+    font-weight: bold;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    border-radius: 10px;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.add-form {
+	max-width: 420px;
+	margin: 30px auto;
+	background: white;
+	text-align: left;
+	padding: 40px;
+	border-radius: 10px;
+}
+
+
+label {
+	color: #aaa;
+	display: inline-block;
+	margin: 25px 0 15px;
+	font-size: 0.6em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+input, select {
+	display: block;
+	padding: 10px 6px;
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	color: #555;
+  border-radius: 5px;
+}
+
+.cancel {
+	display: block;
+	padding: 10px 6px;
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	color: white;
+}
+
+input[class="hidden"] {
+  display: none;
+}
+
+input[type="submit"], button {
+	background: #99CCFF;
+	border: 0;
+	padding: 10px 20px;
+	margin-top: 20px;
+	color: white;
+	border-radius: 20px;
+	text-align: center;
+	cursor: pointer;
+  font-weight: bold;
+}
+
+input[type="button"] {
+  background: #99CCFF;
+  border: 0;
+  padding: 10px 20px;
+  margin-top: 20px;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+img {
+	  height: 260px;
+    width: 270px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.info {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  margin: 10px;
+  margin-left: 20px;
+  font-family: Georgia, Serif;
+}
+
+.restaurant-name {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 20px;
+  font-family: "Georgia", serif;
+}
+
+.row-restaurants {
+  background: #cce6ff;
+  display: flex;
+  border-radius: 15px;
+  width: 50%;
+  margin: 30px auto;
+  text-align: left;
+  padding: 20px;
+}
+
+.restaurant-image {
+  align: left;
+  margin-left: 20px;
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.col-information {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+
+.col-picture {
+  margin-left: 20px;
+}
+
+.row-restaurant:hover {
+  opacity: 0.5;
+  background: white;
+}
+
+.see-more {
+  margin-bottom: 15px;
+  margin-left: 35px;
+  background: #fbfbd0;
+  color: #f291b2;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+
+.all {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Josefin Sans', sans-serif;
+	background: #99CCFF;
+}
+
+.wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 700px;
+	display: flex;
+	box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrapper .left{
+	width: 25%;
+	background: linear-gradient(to right, #99CCFF, #99CCFF);
+	padding: 30px 25px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	text-align: center;
+	color: #fff;
+}
+
+.wrapper .left img{
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.wrapper .left h4{
+	margin-bottom: 10px;
+}
+
+.wrapper .left p{
+	font-size: 12px;
+}
+
+.wrapper .right {
+	width: 75%;
+	background: #fff;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 30px 25px;
+}
+
+.wrapper .right .info{
+	margin-bottom: 25px
+}
+
+.wrapper .right .info h3 {
+	margin-bottom: 15px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #e0e0e0;
+	color: #353c4e;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.wrapper .right .info_data{
+	display: flex;
+	justify-content: space-between;
+}
+
+.wrapper .right .info_data .data {
+	width: 45%;
+}
+
+.wrapper .right .info_data .data h4{
+	color: #353c4e;
+	margin-bottom: 5px;
+}
+
+.wrapper .right .info_data .data p{
+	font-size: 13px;
+	margin-bottom: 10px;
+	color: #919aa3;
+}
+
+body {
+  background-image: url(/images/proba.png);
+  background-size: cover;
+  height: 100%;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.rest-image {
+  align: left;
+  margin-left: 20px;
+  height: 200px;
+  width: 200px;
+  margin-top:40px;
+}
+
+.wrapper-restaurant {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 55%;
+	display: flex;
+	box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrapper-restaurant .left{
+	width: 25%;
+	background: linear-gradient(to right, #99CCFF, #99CCFF);
+	padding: 30px 25px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	text-align: center;
+	color: #fff;
+}
+
+.wrapper-restaurant .left img{
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.wrapper-restaurant .left h4{
+	margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.wrapper-restaurant .left p{
+	font-size: 18px;
+}
+
+.wrapper-restaurant .right {
+	width: 75%;
+	background: #fff;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 30px 25px;
+}
+
+.wrapper-restaurant .right .info{
+	margin-bottom: 25px
+}
+
+.wrapper-restaurant .right .info h3 {
+	margin-bottom: 15px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #e0e0e0;
+	color: #353c4e;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.wrapper-restaurant .right .info_data{
+	display: flex;
+	justify-content: space-between;
+}
+
+.wrapper-restaurant .right .info_data .data {
+	width: 45%;
+}
+
+.wrapper-restaurant .right .info_data .data h4{
+	color: #353c4e;
+	margin-bottom: 5px;
+}
+
+.wrapper-restaurant .right .info_data .data p{
+	font-size: 13px;
+	margin-bottom: 10px;
+	color: #919aa3;
+}
+
+
+.table-body {
+    font-family: Lato, sans-serif;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: #cce6ff;
+    font-size: 0.9rem;
+
+}
+
+.table-all {
+    border-collapse: collapse;
+    box-shadow: 20px 10px 20px 0px;
+    background-color: white;
+    text-align: center;
+}
+
+.table-all th {
+    background-color: #cce6ff;
+    padding: 0.75rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+    font-weight: 900;
+}
+
+.table-all th:hover {
+  cursor: pointer;
+}
+
+.table-all td {
+    padding: 1rem 2rem;
+}
+
+.table-all tr:nth-child(even) {
+    background-color: #eaf5fb;
+}
+
+.row-items {
+  background: white;
+  display: flex;
+  background-blend-mode: lighten;
+  border-radius: 5px;
+  width: 55%;
+  padding: 20px;
+  margin: 30px auto;
+}
+
+.item-name {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 20px;
+  font-family: "Georgia", serif;
+}
+
+.description {
+  color: #999999;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  margin: 10px;
+  margin-left: 20px;
+  font-family: Georgia, Serif;
+}
+
+.price {
+  color: #99CCFF;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  margin: 10px;
+  margin-left: 20px;
+  font-family: Georgia, Serif;
+}
+
+.bycost {
+    display: flex;
+}
+
+.filter-restaurants {
+    font-size: 15px;
+    text-align: left;
+    width: 100px;
+    margin: 10px;
+}
+
+.sortbydate-font {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.column {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.search-form {
+  width: 50%;
+	margin: 30px auto;
+	background: white;
+	text-align: left;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.search-image {
+  height: 17px;
+  weight: 17px;
+  width: 17px;
+}
+
+.search-button {
+  margin-top: 40px;
+  margin-right: 50px;
+}
+
+.filter-restaurants {
+    font-size: 15px;
+    text-align: left;
+    width: 100px;
+    margin: 10px;
+    margin-bottom: 10px;
+    margin-left: 41px;
+}
+
+.col-filters {
+    width: 200px;
+    display: flex;
+}
+
+.container {
+  display: inline;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 12px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10px;
+  width: 10px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #99CCFF;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.byType, .byStatus {
+  margin-left: 43px;
+}
+
+.search-message {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sort-restaurants {
+  font-size: 15px;
+  text-align: left;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.sort-cb {
+  display: inline-block;
+  margin-left: 30px;
+  width: 250px;
+  background: #99CCFF;
+}
+
+.sort-cb select {
+  display: none;
+  margin-left: 41px;
+}
+
+.manager-cb {
+  float: left;
+  width: 40%;
+}
+
+.manager-btn {
+  margin-left: 100px;
+  float: right;
+  width: 40%;
+  margin-top: -59px;
+}
+
+.restaurant-picture {
+  margin-left: 70px;
+  margin-right: auto;
+  display: block;
+}
+
+#search-input {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px 18px 10px 25px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+.search-div {
+  width: 90%;
+	margin: 20px auto;
+	background: white;
+	text-align: left;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#map {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #323232;
+}
+
+.map-div {
+  height: 420px;
+  width: 420px;
+}
+
+.map-div-search {
+  height: 420px;
+  width: 660px;
+  margin-left: 41px;
+}
+
+.comment {
+  resize: none;
+  width: 100%;
+  height: 150px;
+}
+
+.comment::-webkit-input-placeholder {
+  font-family: 'myFont', Arial, Helvetica, sans-serif;
+}
+
+.grade {
+  width: 20%;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.comments {
+  display: flex;
+  border-radius: 5px;
+  width: 55%;
+  padding: 20px;
+  margin: 30px auto;
+}
+
+.comments-header {
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e0e0e0;
+  color: #353c4e;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.customer-ns {
+  color: #a9a9a9;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.text-comment {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.grade-comment {
+  font-size: 19px;
+}
+
+.col-comments {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}

@@ -1,0 +1,151 @@
+[ {
+  "username" : "marija",
+  "password" : "marija",
+  "name" : "Marija",
+  "surname" : "Petrovic",
+  "gender" : "female",
+  "dateOfBirth" : 1622498400000,
+  "role" : "admin",
+  "isBlocked" : false,
+  "deleted" : false
+}, {
+  "username" : "nina",
+  "password" : "nina",
+  "name" : "Nikolina",
+  "surname" : "Pavkovic",
+  "gender" : "male",
+  "dateOfBirth" : 1622844000000,
+  "role" : "admin",
+  "isBlocked" : false,
+  "deleted" : false
+}, {
+  "username" : "aco",
+  "password" : "aco",
+  "name" : "Aleksandar",
+  "surname" : "Aleksic",
+  "gender" : "male",
+  "dateOfBirth" : 1624831200000,
+  "role" : "deliverer",
+  "isBlocked" : false,
+  "deleted" : false
+}, {
+  "username" : "milana",
+  "password" : "milana",
+  "name" : "Milana",
+  "surname" : "Milic",
+  "gender" : "female",
+  "dateOfBirth" : 1624831200000,
+  "role" : "manager",
+  "isBlocked" : false,
+  "deleted" : false
+}, {
+  "username" : "mitar",
+  "password" : "mitar",
+  "name" : "Mitar",
+  "surname" : "Mitric",
+  "gender" : "male",
+  "dateOfBirth" : 1624917600000,
+  "role" : "deliverer",
+  "isBlocked" : false,
+  "deleted" : false
+}, {
+  "username" : "stefan",
+  "password" : "stefanp",
+  "name" : "Stefan",
+  "surname" : "Popovic",
+  "gender" : "male",
+  "dateOfBirth" : 1624831200000,
+  "role" : "manager",
+  "isBlocked" : false,
+  "deleted" : false
+}, {
+  "username" : "petar",
+  "password" : "petar",
+  "name" : "Petar",
+  "surname" : "Maric",
+  "gender" : "male",
+  "dateOfBirth" : 1624831200000,
+  "role" : "manager",
+  "isBlocked" : false,
+  "deleted" : false
+}, {
+  "username" : "ana",
+  "password" : "ana",
+  "name" : "Ana",
+  "surname" : "Petrovic",
+  "gender" : "female",
+  "dateOfBirth" : 1624831200000,
+  "role" : "manager",
+  "isBlocked" : false,
+  "deleted" : false
+}, {
+  "username" : "sofija",
+  "password" : "sofija",
+  "name" : "Sofija",
+  "surname" : "Tasic",
+  "gender" : "female",
+  "dateOfBirth" : 1624831200000,
+  "role" : "manager",
+  "isBlocked" : false,
+  "deleted" : false
+}, {
+  "username" : "zoran",
+  "password" : "zoran",
+  "name" : "Zoran",
+  "surname" : "Zoric",
+  "gender" : "male",
+  "dateOfBirth" : 1625004000000,
+  "role" : "customer",
+  "isBlocked" : false,
+  "deleted" : false
+}, {
+  "username" : "vanja",
+  "password" : "vanja",
+  "name" : "Vanja",
+  "surname" : "Veljic",
+  "gender" : "female",
+  "dateOfBirth" : 1625781600000,
+  "role" : "customer",
+  "isBlocked" : false,
+  "deleted" : false
+}, {
+  "username" : "sima",
+  "password" : "sima",
+  "name" : "Sima",
+  "surname" : "Simic",
+  "gender" : "male",
+  "dateOfBirth" : 1625090400000,
+  "role" : "customer",
+  "isBlocked" : false,
+  "deleted" : false
+}, {
+  "username" : "milka",
+  "password" : "milka",
+  "name" : "Milka",
+  "surname" : "Milkic",
+  "gender" : "female",
+  "dateOfBirth" : 1559772000000,
+  "role" : "customer",
+  "isBlocked" : false,
+  "deleted" : false
+}, {
+  "username" : "goran",
+  "password" : "goran",
+  "name" : "Goran",
+  "surname" : "Goranovic",
+  "gender" : "male",
+  "dateOfBirth" : 1625263200000,
+  "role" : "customer",
+  "isBlocked" : false,
+  "deleted" : false
+} , {
+  "username" : "srdjan",
+  "password" : "srdjan",
+  "name" : "Srdjan",
+  "surname" : "Popovic",
+  "gender" : "male",
+  "dateOfBirth" : 1624831200000,
+  "role" : "manager",
+  "isBlocked" : false,
+  "deleted" : false
+}]
