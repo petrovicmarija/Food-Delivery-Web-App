@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;filteredRestaurants&apos; in &apos;services.RestaurantService.findRestaurants(...)&apos; to &apos;foundRestaurants&apos;&#x0D;&#x0A;- Original project: &apos;SparkREST&apos;&#x0D;&#x0A;- Original element: &apos;services.RestaurantService.findRestaurants(SearchDTO).filteredRestaurants&apos;&#x0D;&#x0A;- Renamed element: &apos;filteredRestaurants&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;filteredRestaurants&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;services{RestaurantService.java[RestaurantService~findRestaurants~QSearchDTO;@filteredRestaurants!3912!3983!3934!3952!QArrayList\&lt;QRestaurant;&gt;;!0!false" name="foundRestaurants" references="true" stamp="1626858092093" version="1.0"/>
+</session>
